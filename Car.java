@@ -37,9 +37,13 @@ public void drive () {
 
 public statis void main(String[] args) {
 
-   Engine pe = new PetrolEngine();
-   Car myCar = new Car(pe);
-   System.out.println(pe.drive());
+   Engine pee = new PetrolEngine();
+   Car myCar = new Car(pee);
+   System.out.println(pee.drive());
+  
+   Engine ped = new DieselEngine();
+   Car myCar = new Car(ped);
+   System.out.println(ped.drive());
 
 }
 
