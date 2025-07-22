@@ -38,12 +38,12 @@ public void drive () {
 public statis void main(String[] args) {
 
    Engine pee = new PetrolEngine();
-   Car myCar = new Car(pee);
-   System.out.println(pee.drive());
+   Car PetrolCar = new Car(pee);
+   System.out.println(PetrolCar.drive());
   
    Engine ped = new DieselEngine();
-   Car myCar = new Car(ped);
-   System.out.println(ped.drive());
+   Car DieselCar = new Car(ped);
+   System.out.println(DieselCar.drive());
 
 }
 
